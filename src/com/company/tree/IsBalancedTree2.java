@@ -1,7 +1,7 @@
 package com.company.tree;
 
 public class IsBalancedTree2 {
-    public boolean isAVLTree(TreeNode root) {
+    public boolean isBalancedTree(TreeNode root) {
         return height(root) >= 0;
     }
 
